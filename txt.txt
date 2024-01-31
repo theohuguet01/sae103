@@ -1,0 +1,35 @@
+Creer une fonction de recupperation qui renvoie true or false en fonction d'un paternne. Qu'il puisse calculer la frequence,
+
+Code de base : 
+## reçue
+enregistrement1 = sd.rec(int(duration * frequence_ech), samplerate=frequence_ech, channels=2, device=1)
+sd.wait()
+
+t_enr = np.arange(0, duration, periode_ech)
+
+fig, ax = plt.subplots(figsize=(20, 6))
+
+# Affichage du cosinus
+ax.plot(t_enr, enregistrement1)
+ax.set_xlim(0,0.001)
+ax.set_xlabel('Temps (s)')
+
+
+count = 0
+for idex in range(len(enregistrement1)-1):
+    if (enregistrement1[idex][1] < 0) and (enregistrement1[idex+1][1] > 0):
+        count += 1
+
+
+print("La fréquence reçue est : ", count/duration)
+
+val_amplitude = amplitude(enregistrement1)
+
+print("La réponse en fréquence : ", rep_freq(val_amplitude))
+
+rep_fr.append(rep_freq(val_amplitude))
+frequencies_r.append(count/duration)
+
+print(rep_fr)
+print(frequencies_r)
+
