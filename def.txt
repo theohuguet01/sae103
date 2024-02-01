@@ -1,0 +1,1 @@
+gain négatif indique que la puissance du signal est diminué
