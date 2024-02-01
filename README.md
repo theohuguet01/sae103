@@ -8,5 +8,5 @@ Ce projet a pour objectif de réaliser une application en Python liée au domain
 
 ## Equipe
 
-- [@The-one-jocker](https://github.com/The-one-jocker) (Lucas AUBRIET)
+- [@The-one-joker](https://github.com/The-one-joker) (Lucas AUBRIET)
 - [@theohuguet01](https://github.com/theohuguet01) (Théo HUGUET)
