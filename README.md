@@ -6,7 +6,7 @@ Bienvenue sur le dépôt GitHub du projet SAE103 - Transmission, développé dan
 
 Ce projet a pour objectif de réaliser une application en Python liée au domaine des transmissions. Il s'inscrit dans le cadre du cursus universitaire en Réseau & Telecom en alternance.
 
-## Equipe 
+## Equipe
 
-@The-one-jocker (Lucas AUBRIET)
-@theohuguet01 (Théo HUGUET)
+- [@The-one-jocker](https://github.com/The-one-jocker) (Lucas AUBRIET)
+- [@theohuguet01](https://github.com/theohuguet01) (Théo HUGUET)
