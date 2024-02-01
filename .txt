@@ -1,0 +1,8 @@
+On souhaite automatiser la mesure de la réponse en fréquence que vous avez normalement réalisé lundi. 
+Pour cela il faudra créer un programme sur le PC émetteur et un sur le PC récepteur. 
+
+Le résultat obtenu doit être le suivant : 
+
+1) On démarrer le programme sur le PC récepteur qui se place alors en attente du démarrage de la mesure, 
+2) Un temps indéterminé après, on démarre le programme sur le PC émetteur pour démarrer la mesure, 
+3) Le PC émetteur envoie les signaux sinusoïdaux aux différentes fréquences et le PC récepteur effectuer pour chacune la mesure de fréquence et d’amplitude puis trace la réponse en fréquence en dB.
