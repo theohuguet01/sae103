@@ -1,1 +1,1 @@
-Le gain négatif indique que la puissance du signal est diminué.
+Gain négatif : diminution de la puissance d'un signal, utile pour atténuer le bruit, ajuster la balance ou effectuer des transformations fréquentielles.
