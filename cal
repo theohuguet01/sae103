@@ -1,0 +1,42 @@
+public class Calculatrice {
+    public static void main(String[] args) {
+        if (args.length != 3) {
+            System.out.println("Usage: java Calculatrice <nombre1> <operation> <nombre2>");
+            return;
+        }
+
+        // Lire les arguments de la ligne de commande
+        int nombre1 = Integer.parseInt(args[0]);
+        char operation = args[1].charAt(0);
+        int nombre2 = Integer.parseInt(args[2]);
+
+        int resultat = 0;
+
+        // Effectuer l'opération en fonction du caractère
+        switch (operation) {
+            case '+':
+                resultat = nombre1 + nombre2;
+                break;
+            case '-':
+                resultat = nombre1 - nombre2;
+                break;
+            case '*':
+                resultat = nombre1 * nombre2;
+                break;
+            case '/':
+                if (nombre2 != 0) {
+                    resultat = nombre1 / nombre2;
+                } else {
+                    System.out.println("Erreur: division par zéro!");
+                    return;
+                }
+                break;
+            default:
+                System.out.println("Erreur: opération non reconnue.");
+                return;
+        }
+
+        // Afficher le résultat
+        System.out.println("Le résultat est: " + resultat);
+    }
+}
